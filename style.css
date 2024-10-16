@@ -1,0 +1,98 @@
+.root {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header-wrapper {
+    color: black;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+.judul {
+    margin: 0;
+    border-bottom: 1px solid black; 
+    padding-bottom: 10px; 
+}
+
+.quest-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 50px 20px 20px;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.label {
+    color: #444;
+}
+
+
+.form-group label {
+
+    font-weight: bold;
+    margin-bottom: 5px;
+   
+}
+
+.form-group input {
+    width: 97.5%;
+    padding: 8px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.submit-btn {
+    margin-left: 350px;
+}
+
+button {
+    padding-left: 30px;
+    width: 90px;
+    padding: 10px;
+    font-size: 1rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #444;
+}
+.form-border{
+    
+        border: 1px solid #ccc;
+        padding: 10px;
+        border-radius: 5px;
+}
+.output-container {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 30px;
+    background-color: white;
+    display: flex;
+    flex-direction: center;
+    text-align: center;
+    justify-content: space-between;
+    width: 200px;
+    margin-left: 38%;
+  }
+.output-container:hover{
+    transform: scale(1.05);
+}
+.gambar{
+    width: 100%;
+}
+
